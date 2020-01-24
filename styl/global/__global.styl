@@ -1,0 +1,38 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body
+    font-family: 'Montserrat', sans-serif
+    
+.title
+    font-size: size__titles
+    font-weight: bold
+    color:black
+.inputs
+    background-color: color_gris
+    outline: none
+    border-radius: border__radius
+    color:color_gris_solido
+    font-family: 'Montserrat', sans-serif
+    border: 0
+    padding: 1em
+    width: 100%
+    &:focus
+        
+        outline-color:color_azul
+        outline-radius: border__radius
+.btn
+    border-radius: border__radius
+    padding: .6em 1em
+    font-weight: bold
+    font-size: size__btn
+    border: 0 none
+    outline: none
+    transition: 1s all
+    &:active
+        transform: scale(.8)
+
+.btn-green
+    background: color_verde
+    color: white

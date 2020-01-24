@@ -1,0 +1,21 @@
+{
+  "name": "mi-expresion-cuenta",
+  "version": "1.0.0",
+  "description": "Maquetacion de web app para apoyar a personas con deficiencia auditiva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "mi",
+    "expresion",
+    "cuenta"
+  ],
+  "author": "Jehaann Manzanares",
+  "license": "MIT",
+  "dependencies": {
+    "styl": "^0.2.9"
+  }
+}
